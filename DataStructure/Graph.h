@@ -14,8 +14,8 @@ typedef struct tagVertex {
 	int Visited;
 	int Index;
 
-	struct tageVertex* Next;
-	Edge* AdjList;
+	struct tagVertex* Next;
+	struct tagEdge* AdjList;
 }Vertex;
 
 typedef struct tagEdge {
@@ -30,7 +30,7 @@ typedef struct tagGraph {
 	int VertexCount;
 }Graph;
 
-Graph* CreatGraph();
+Graph* CreateGraph();
 void DestroyGraph(Graph *graph);
 
 Vertex* CreateVertex(ElementType data);
