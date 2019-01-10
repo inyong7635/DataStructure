@@ -1,9 +1,10 @@
 #include"LinkedQueue.h"
+
 #include<stdio.h>
 #include<stdlib.h>
 
 int main() {
-	Node* node;
+
 
 	LinkedQueue* queue;
 	CreateQueue(&queue);
@@ -22,4 +23,6 @@ int main() {
 	}
 
 	DestroyQueue(queue);
+
+	
 }

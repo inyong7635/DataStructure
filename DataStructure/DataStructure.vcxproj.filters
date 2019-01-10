@@ -24,6 +24,12 @@
     <ClInclude Include="LinkedQueue.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Graph.c">
@@ -39,6 +45,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Test_LinkedQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_LinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_BinaryTree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

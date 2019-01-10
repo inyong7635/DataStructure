@@ -118,18 +118,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GraphTraversal.h" />
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="LinkedQueue.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTree.c" />
     <ClCompile Include="Graph.c" />
     <ClCompile Include="GraphTraversal.c" />
+    <ClCompile Include="LinkedList.c" />
     <ClCompile Include="LinkedQueue.c" />
     <ClCompile Include="main.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Test_LinkedQueue.c" />
+    <ClCompile Include="Test_BinaryTree.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Test_LinkedList.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Test_LinkedQueue.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

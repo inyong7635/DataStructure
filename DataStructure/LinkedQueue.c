@@ -1,5 +1,6 @@
 #include "LinkedQueue.h"
 
+
 void CreateQueue(LinkedQueue ** Queue)
 {
 	*Queue = (LinkedQueue*)malloc(sizeof(LinkedQueue));
