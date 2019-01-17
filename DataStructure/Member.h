@@ -1,0 +1,19 @@
+#pragma once
+#ifndef __Member
+#define __Member
+
+typedef struct {
+	int no;
+	char name[20];
+}Member;
+
+#define MEMBER_NO 1
+#define MEMBER_NAME 2
+
+int MemberNoCmp(const Member *x, const Member *y);
+int MemberNameCmp(const Member *x, const Member *y);
+void PrintMember(const Member *x);
+void PirntLnMember(const Member *x);
+Member ScanMember(const char *message, int sw);
+
+#endif // !1
